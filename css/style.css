@@ -1,0 +1,282 @@
+body{ 
+    margin:0;
+    background-color:rgba(255,253,251,1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+.container{
+    margin: 0 auto ;
+    width: 960px;
+    /* height: 800px; */
+    position: relative;
+}
+
+.banner{
+    background-image: url(../Images/A4.png);
+    width: 960px;
+    height: 391px;
+}
+
+.menu{
+  /* background-color:aqua; */
+  position: fixed;
+  margin-top: 30px;
+  display: inline-block;
+  line-height:2.3;
+  color: rgb(122,122,122);
+  z-index: 2;
+}
+
+.menu li {
+ list-style: none;
+}
+
+.menu_hide{
+    line-height: 1.5;
+    margin-left: 20px;
+    display: none;
+}
+.hand{
+    position: absolute;
+    top:180px;
+    left:727px;
+}
+
+.daimond{
+    /* background-color:aqua; */
+    margin-top: 60px;
+    margin-left:200px;
+    display: inline-block;
+    opacity: .5;
+}
+
+.daimond_p {
+    /* background-color: red; */
+    width: 45px;
+}
+
+.d_intro{
+    width: 300px;
+    height: 80px;
+    margin-top: 70px;
+    margin-left: 330px;
+    display: inline-block;
+    /* background-color:pink; */
+    position: absolute;
+}
+
+.d_1{
+    /* background-color:aqua; */
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 150px;
+    display: inline-block;
+    opacity: .5;
+}
+
+.d_1 img {
+    /* background-color: aqua; */
+    width: 45px;
+}
+
+
+
+.heart{
+    border-bottom: 2px solid rgb(192, 32, 32);
+    background:linear-gradient(rgba(255, 255, 255, 0),rgb(248, 241, 233));
+    padding: 20px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 150px;
+    display: inline-block;
+}
+
+.arrow{
+    position: absolute;
+    margin-top: 120px;
+    margin-left:115px;
+    
+}
+.arrow_1{
+    position: absolute;
+    margin-top: 120px;
+    margin-left:-55px;
+    transform:rotate(180deg);
+}
+
+.heart img {
+    /* background-color: aqua; */
+    width: 90px;
+}
+
+.heart >div {
+    font-size: 40px;
+}
+
+.emerald{
+    /* background-color:aqua; */
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 150px;
+    display: inline-block;
+    opacity: .5;
+}
+
+.emerald img {
+    /* background-color: aqua; */
+    width: 45px;
+}
+
+.leftring{
+    position:absolute;
+    top:650px;
+}
+
+.rightring{
+    position:absolute;
+    right:0px;
+    top:750px;
+
+}
+
+.section2{
+    background-image: url(../Images/A24.png);
+    max-width: 980px;
+    height:850px;
+    margin-top:280px;
+    
+}
+
+.section2_text{
+    /* border: 10px red solid; */
+   letter-spacing: 4px;
+   text-align: center;
+   font-size: 5vh;
+   color: rgba(73,73,73,1.00);
+   padding-top: 150px;
+}
+
+.section2_img_bg{
+    background-color:rgba(244,195,190,0.5);
+    width: 380px;
+    height: 380px;
+    margin-top: 30px;
+    margin-left: 120px;
+    position: absolute;
+}
+.section2_img{
+    padding: 15px;
+}
+
+.square{
+    border:5px solid rgba(244,195,190,0.5);
+    max-width: 795px;
+    height: 320px;
+    margin-top: 50px;
+    margin-left: 80px;
+    
+}
+
+.intro{
+    /* border: 5px solid rgb(192, 32, 32); */
+    width: 330px;
+    margin-left: 55%;
+    margin-top: 10%;
+}
+
+.intro_1{
+    /* background-color: lawngreen; */
+    margin-top: 20px;
+    width: 330px;
+    margin-left: 55%;
+    display: flex;  
+
+}
+
+.level{
+    border-bottom: 1px solid rgb(192, 32, 32);
+    background:linear-gradient(rgba(255, 255, 255, 0),rgb(248, 241, 233));
+    width: 60px;
+    height: 80px;
+    /* background-color: rgb(255, 239, 205); */ 
+}
+
+.level h2 {
+    text-align:center;
+    margin-top:40px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.ct{
+    border-bottom: 1px solid rgb(192, 32, 32);
+    background:linear-gradient(rgba(255, 255, 255, 0),rgb(248, 241, 233));
+    width: 60px;
+    height: 80px;
+    margin-left: 20px;
+    /* background-color: rgb(255, 239, 205); */ 
+}
+.ct h2{
+    text-align:center;
+    margin-top:40px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.square_list{
+    /* border: 1px solid rgb(192, 32, 32);
+    height: 100px; */
+ margin-left: 130px;
+}
+
+
+.square_list div img{
+    float: left;
+    width:65px;
+    height: 65px;
+    border: 1px solid rgb(104, 94, 94);
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.add{
+    border: 1px solid rgb(192, 32, 32);
+}
+
+.more{
+    font-size: 18px;
+    margin-left: 140px;
+    margin-top: 100px;
+}
+
+.more_arrow{
+    width: 20px;
+    margin-top: 99px;
+    margin-left: 5px;
+}
+
+.footer{
+    margin-left: 43%;
+    display: flex;
+
+}
+
+.footer img {
+    padding: 10px 2px;
+
+}
+
+/*效果區*/
+
+.menu li:hover{
+color:rgba(118,0,1,1.00);
+}
+
+.active{
+    display:block;
+}
