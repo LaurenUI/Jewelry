@@ -1,23 +1,4 @@
-// $(document).ready(function(){
-//   $('.menu1').hover(function(){
-// $('.menu_hide').css('display','block');
-//   }, function(){
-//     $('.menu_hide').css('display','none');
-//   });
-// });
-
-
 $(document).ready(function(){
-  // document.getElementById("menu1").onmouseenter = function() {mouseEnter()};
-  // document.getElementById("menu1").onmouseleave = function() {mouseLeave()};
-  
-  // function mouseEnter() {
-  //   document.getElementById("menu_hide").style.display = "block";
-  // };
-//   function mouseLeave() {
-//     document.getElementById("menu_hide").style.display = "none";
-//   }
-
 $("#square_list").empty();
 // 將預覽圖A11~A18新增到#square_list元素
 for (var i = 11; i <= 18; i++) {
